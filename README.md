@@ -13,14 +13,21 @@ Instalación
    ```sh
    git clone https://github.com/ShiraiJPG/Divisas.git
    cd tu-repositorio
+   ```
 
 2. Crea y activa el entorno virtual:
+```
 python -m venv Divisas
 source Divisas/bin/activate  # Mac/Linux  
 Divisas\Scripts\activate  # Windows  
+```
 
 3. Instala las dependencias:
+```
 pip install -r requirements.txt
+```
 
 4. Ejecuta el script principal:
+```
 python main.py
+```
