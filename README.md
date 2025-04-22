@@ -16,18 +16,18 @@ Instalación
    ```
 
 2. Crea y activa el entorno virtual:
-```
+```sh
 python -m venv Divisas
 source Divisas/bin/activate  # Mac/Linux  
 Divisas\Scripts\activate  # Windows  
 ```
 
 3. Instala las dependencias:
-```
+```sh
 pip install -r requirements.txt
 ```
 
 4. Ejecuta el script principal:
-```
+```sh
 python main.py
 ```
