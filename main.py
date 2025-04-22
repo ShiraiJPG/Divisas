@@ -18,6 +18,8 @@ Por ejemplo, si 1 JPY = 0.0075 USD, entonces:
 def exchange_money(budget, exchange_rate):
     return budget / exchange_rate
 
+
+## Edita el codigo segun la cantidad que gustes.
 print("Convertir USD a Yenes Japoneses (JPY):")
 print(exchange_money(300, 0.0075))
 
